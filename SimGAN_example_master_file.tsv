@@ -1,0 +1,2 @@
+g_conv_dim	batch_size	epochs	z_dim	vertexes	atom_num_types	bond_num_types	dropout	d_conv_dim	aux_dim	lin_dim	g_lr	d_lr	beta1	beta2	post_method	lambda_gp	n_critic	layer_init	generator_type	discriminator_type	d_gc_activation	d_dense_activation	optim_name	sim_metric	sim_sample_size	sim_lambda
+[128, 256, 512]	128	100	8	9	5	5	0.0	[128, 64]	128	[128, 64]	0.0001	0.0001	0.9	0.999	softmax	5	3	golort	GraphGenerator	SimplifiedDiscriminator	ftanh	tanh	adam	eig_sim_l2	50	0.1
